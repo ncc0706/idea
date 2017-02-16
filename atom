@@ -1,0 +1,72 @@
+
+https://github.com/kompasim/atom-plugins/blob/master/README.md
+
+1. [active-power-mode](active-power-mode)ctrl + atl + o
+
+1. [atom-music]()alt + m
+
+3. all-times-you-know (全局背景) ctrl+alt+n(下一张图片) ctrl+alt+p(固定图片)
+	
+	editor-background
+
+4. git-plus (ctrl + shift + h)
+
+5. vim-mode ex-mode vim 命令支持
+
+
+autocomplete-html
+
+cmd-shift-D 复制当前行到下一行
+
+ctrl-shift-K 删除当前行
+
+cmd-K, cmd-U 使当前字符大写
+cmd-K, cmd-L 使当前字符小写
+
+
+keyboard-sound
+typewriter-sound
+敲代码声音
+
+
+https://boy.b521.net/archives/64.html
+
+** script ** ctrl + i (运行脚本) ctrl + q(kill 进程) ESC(close the script view window)
+** seti-syntax ** (编程语言图标)
+** atom-beautify ** (格式化代码插件) 可以在插件里面设置 保存后格式化
+
+
+
+
+
+#########nodejs#############
+
+** atom-ternjs ** 用于 Javascript 和 Node.js 的自动补全
+
+
+#########script###########
+
+
+	Mac		Windows
+运行	cmd + i		ctrl + shift + b
+结束	ctrl + c	ctrl + q
+
+********* Markdown preview ***
+mdpt
+
+
+****浏览器插件****
+browser-plus
+
+
+terminal-plus
+
+
+go-plus
+
+
+
+
+
+
+
