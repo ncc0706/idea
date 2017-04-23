@@ -6,3 +6,24 @@ net user administrator /active:yes
 net user zhangsan password
 
 
+桌面快捷方式
+http://jingyan.baidu.com/article/4f34706ed28f11e387b56d3f.html
+
+显示我的电脑
+http://www.jb51.net/os/win10/364987.html
+
+svn plugin
+http://subclipse.tigris.org/servlets/ProjectDocumentList?folderID=2240
+
+
+
+sts 设置
+STS.ini
+-Dfile.encoding=UTF-8
+
+
+
+
+
+
+
