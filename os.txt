@@ -1,0 +1,8 @@
+
+激活超级管理员用户
+net user administrator /active:yes
+
+为张三用户设置密码
+net user zhangsan password
+
+
