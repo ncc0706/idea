@@ -1,0 +1,44 @@
+
+2017 安装docker
+方法1
+sudo echo "deb https://download.docker.com/linux/ubuntu zesty edge" > /etc/apt/sources.list.d/docker.list
+sudo apt update && sudo apt install docker-ce
+
+方法2
+
+Docker hasn't setup a repository for the latest ubuntu, but that's an easy fix because their release for ubuntu 16 is compatible. For the time being, just edit /etc/apt/sources.list and on the line:
+
+deb [arch=amd64] https://download.docker.com/linux/ubuntu zesty stable
+Replace zesty by xenial. Run sudo apt-get update and you can proceed with sudo apt-get install docker-ce
+
+
+参考链接
+http://www.jianshu.com/p/63191a548bf3
+
+
+
+解决非root用户使用docker的办法
+http://www.cnblogs.com/franson-2016/p/6412971.html
+
+下面是使用非root用户操作的步骤
+
+创建docker组
+
+sudo groupadd docker
+将当前用户加入docker组
+
+sudo gpasswd -a ${USER} docker
+重新启动docker服务（下面是CentOS7的命令）
+
+sudo service docker restart或sudo systemctl restart docker
+当前用户退出系统重新登陆
+
+su root
+
+su franson 
+
+运行docker命令
+
+docker ps
+
+
